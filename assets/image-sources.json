@@ -1,0 +1,48 @@
+{
+  "project": "CatEye product website",
+  "verified_on": "2026-10-09",
+  "license_name": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "license_summary": "Free commercial and non-commercial use; attribution appreciated but not required. Do not sell unmodified copies or compile a competing image service. The photo license does not itself grant rights to depicted brands, people or artworks.",
+  "usage_note": "Use as editorial environment photography for creator, study and gaming scenarios. These are not CatEye interface screenshots and should not be labeled as product UI or endorsements.",
+  "assets": [
+    {
+      "file": "creator-workspace.jpg",
+      "role": "Creator and video editing workspace / landscape hero",
+      "photographer": "Josh Miller",
+      "photographer_handle": "joshmillerdp",
+      "source_page_url": "https://unsplash.com/photos/black-flat-screen-computer-monitor-jMghZH5vK8Y",
+      "download_url": "https://images.unsplash.com/photo-1604085558041-55eab7044eaf?auto=format&fit=crop&fm=jpg&q=85&w=1200&h=800",
+      "license_url": "https://unsplash.com/license",
+      "published": "2020-10-30",
+      "rendition": "1200x800 JPEG, source CDN landscape crop from portrait photograph",
+      "visual_review": "Real photograph of a video editing screen and color-grading desk. Detailed timeline, dark equipment, warm ambient light. Screen content remains visible in the downloaded landscape crop; do not crop further into a very wide banner without checking.",
+      "alt_zh": "创作工作台上的视频剪辑屏幕、耳机与调色控制台"
+    },
+    {
+      "file": "study-workspace.jpg",
+      "role": "Learning and note taking workspace",
+      "photographer": "Nick Morrison",
+      "source_page_url": "https://unsplash.com/photos/macbook-pro-near-white-open-book-FHnnjk1Yj7Y",
+      "download_url": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=max&fm=jpg&q=85&w=1200",
+      "license_url": "https://unsplash.com/license",
+      "published": "2017-07-31",
+      "rendition": "1200x900 JPEG, original aspect ratio",
+      "visual_review": "Real natural-light study scene with an open laptop, notebook and pen. No visible face. Lighter than the other two photos; a CSS shade can make it fit the dark website. Screen shows a document rather than an actual online lesson.",
+      "alt_zh": "自然光下的笔记本电脑、手写笔记本与咖啡杯"
+    },
+    {
+      "file": "gaming-workspace.jpg",
+      "role": "Gaming and esports desktop workspace",
+      "photographer": "ARTO SURAJ",
+      "photographer_handle": "artosuraj",
+      "source_page_url": "https://unsplash.com/photos/black-flat-screen-computer-monitor-turned-on-with-black-computer-keyboard-cIxE9fk7B2c",
+      "download_url": "https://images.unsplash.com/photo-1630201129622-a8e8ef3f7245?auto=format&fit=max&fm=jpg&q=85&w=1200",
+      "license_url": "https://unsplash.com/license",
+      "published": "2021-08-29",
+      "rendition": "1200x900 JPEG, original aspect ratio",
+      "visual_review": "Real dark gaming setup with dual monitors, blue RGB PC and colorful keyboard. Strong black surround suits a dark page. Contains a pseudo neon wall sign; no paid watermark. It is a desktop setup rather than a gameplay screenshot.",
+      "alt_zh": "蓝色灯光下的双屏游戏电脑与 RGB 键盘"
+    }
+  ]
+}

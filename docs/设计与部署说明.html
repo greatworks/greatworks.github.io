@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>猫眼官网 — 体验分析、设计与部署说明</title><link rel="stylesheet" href="document.css"></head><body><main>
+<small>CAT EYE / WEBSITE DESIGN NOTES / 2026-10-09</small>
+<h1>猫眼录屏<br>体验分析、界面规划与部署说明</h1>
+<p>本轮完整推翻前版页面，交付直接可编辑、可部署的 HTML 源代码。技术选型为 HTML + 本地 Bootstrap CSS + 原生 JavaScript，不需要任何构建工具。</p>
+<h2>1. 用户体验分析</h2>
+<div class="table-wrap"><table><thead><tr><th>用户与需求</th><th>页面回应</th><th>关键操作</th></tr></thead><tbody>
+<tr><td>首次寻找录屏工具：免费吗，有水印吗？</td><td>首屏下载入口、免费/无水印/本地录制卖点、真实软件界面。</td><td>看产品 → 下载</td></tr>
+<tr><td>学生、教程创作者：能否保留文字与操作画面？</td><td>学习与创作场景图，区域录制、原始分辨率、MP4/MKV 对比；支持电脑声音、麦克风、混音和音画同步暂停。</td><td>看场景 → 查指南 → 下载</td></tr>
+<tr><td>电脑用户：安装麻烦吗，系统是否支持？</td><td>安装包、运行环境、安装步骤与实际兼容验证边界。</td><td>确认要求 → 下载最新安装包 → 安装使用</td></tr>
+<tr><td>手机访客：先了解产品，再到电脑安装。</td><td>单栏自适应、触控导航、复制软件下载地址。</td><td>复制链接 → Windows 电脑下载</td></tr>
+<tr><td>英文访客：需要完整自然的英文说明。</td><td>独立英文 HTML、同页语言切换、锚点保留，品牌使用 CatEye。</td><td>切换语言 → 浏览相同页面</td></tr>
+</tbody></table></div>
+<p class="note">核心交互路径：理解价值 → 看到真实界面与适用场景 → 确认功能与系统要求 → 下载 → 查看首次使用指南。没有虚构用户规模、评分、演示视频或性能比例。</p>
+<h2>2. 产品界面规划</h2>
+<div class="table-wrap"><table><tr><th>界面</th><th>中文 / 英文文件</th><th>信息结构</th></tr>
+<tr><td>产品首页</td><td>index.html / index-en.html</td><td>大标题与下载入口 → 实际软件界面 → 核心卖点 → 真实场景照片 → 免费与本地特点 → 三步录制 → 画质互动 → FAQ → 下载。</td></tr>
+<tr><td>下载页面</td><td>download.html / download-en.html</td><td>最新安装包直接下载、实时版本/体积、复制地址、GitHub 备用入口、系统要求、更新与安装说明。</td></tr>
+<tr><td>使用指南</td><td>guide.html / guide-en.html</td><td>页内目录、实际软件界面放大、四步录制、画质对比、快捷键、兼容边界与 FAQ。</td></tr></table></div>
+<h2>3. 高保真 UI 设计</h2>
+<p>视觉主题为“创作工作室”。区别于前版左右分栏，首屏使用居中大标题与多层真实图片构图；炭黑底色、荧光青柠绿主按钮、浅色场景区交替，建立清晰的阅读节奏。场景照片分别对应学习、视频创作和游戏，软件界面仍使用真实控件导出图。</p>
+<ul><li>色彩：炭黑 #111313、青柠绿 #d5fb61、浅色 #f4f5ef。</li><li>PC 使用宽内容区和网格，手机变为单栏，导航折叠为触控菜单。</li><li>图片固定宽高比例，避免加载时页面跳动；正文与实际操作入口使用可读字体尺寸。</li><li>按钮、卡片、导航和弹窗共享圆角、细边框、焦点轮廓与交互反馈。</li><li>标准系统鼠标样式，无自绘鼠标或跟随指针遮挡操作。</li></ul>
+<h2>4. 灵动交互与动效</h2>
+<ul><li>首屏配图缓慢浮动；真实软件图根据鼠标位置轻微倾斜。</li><li>卡片局部光晕跟随鼠标，场景图在悬停时缓慢放大。</li><li>滚动入场与顶部阅读进度条。</li><li>录制步骤点击切换对应说明；MP4/MKV 切换内容、格式与选中状态。</li><li>实际软件界面可放大，关闭后焦点回到入口。</li><li>原生 FAQ 折叠、手机导航、下载地址复制和真实下载请求反馈。</li><li>页脚提供“暂停动效”；尊重 prefers-reduced-motion。手机和触摸设备不启用鼠标视差。</li></ul>
+<h2>5. 素材与可信度</h2>
+<p>实际产品图来自 CatEye 项目 WinForms 控件导出；场景图来自 Unsplash 摄影师 Josh Miller、Nick Morrison 和 ARTO SURAJ，场景图不代表 CatEye 软件界面。完整出处见 <a href="../assets/CREDITS.txt">素材来源与许可</a>。没有使用占位图片、虚构媒体背书或未验证的产品指标。</p>
+<p>本轮根据公开 GitHub V2.3.1 更新功能：支持电脑声音、麦克风、同时录制和静音，暂停时音画同步；提供安装包、快捷方式和 Windows 卸载入口，卸载保留录制文件；启动检查与手动检查更新，录制中推迟更新提示。网站描述兼容目标与现有验收范围。</p>
+<h2>6. 可部署 HTML 交付</h2>
+<p>直接编辑 HTML；样式位于 <code>assets/css/main.css</code>，动效位于 <code>assets/js/main.js</code>，最新下载位于 <code>assets/js/downloads.js</code>。Bootstrap CSS、Lucide 图标和图片均在本地交付。无需 Node.js、npm、数据库、框架运行时或构建命令。</p>
+<p>将完整文件夹上传到静态托管，确保 <code>index.html</code> 是根目录入口并保留 <code>assets</code>。页面全部使用相对路径，支持根目录或子目录部署。页面打开和点击下载时查询 GitHub 最新正式版，自动更新版本、体积与安装包地址。优先 EXE/MSI，同版本无安装器时使用 ZIP；失败提示重试与最新发布页，不回退旧版。仅顶部导航菜单跳转独立下载页，其余下载入口直接请求下载。</p>
+<h2>7. 验证范围</h2>
+<p>已检查六个业务页面的 1440 / 768 / 393 / 320px 布局、资源引用、内部锚点、双语覆盖和交互。浏览器测试采用 HTTP 本地预览，并验证 file:// 直接打开首页可获取 GitHub 最新版本信息。最新安装包已从首页实际下载并核对体积与 SHA-256。已验证限流后重试、9 秒超时、便携 ZIP 说明及剪贴板不可用时的手动复制回退。</p>
+<p>没有进行实体 iPhone / Android 或全部浏览器真机验收；网站测试不替代 Windows 录屏软件本身的跨系统回归。</p>
+<p><a href="../index.html">返回中文首页 →</a>　<a href="../index-en.html">Open English home →</a></p>
+</main></body></html>

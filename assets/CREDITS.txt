@@ -1,0 +1,33 @@
+ASSET SOURCES / 素材来源
+
+CatEye Windows UI: app-zh.png and app-en.png were exported from the actual
+RecorderForm controls in the adjacent CatEye application source, using a neutral
+output path D:\CatEyeRecordings in the rendering instance. These are real product
+controls, not placeholder mockups. Refreshed on 2026-10-09 to include the audio
+selector. The preview uses a neutral CATEYE version label; the live release
+version is read from GitHub, not inferred from the screenshot. cateye-logo.png is the existing CatEye logo.
+
+Scene photographs are editorial context, not screenshots of CatEye:
+
+creator-workspace.jpg — Josh Miller / Unsplash
+https://unsplash.com/photos/black-flat-screen-computer-monitor-jMghZH5vK8Y
+
+study-workspace.jpg — Nick Morrison / Unsplash
+https://unsplash.com/photos/macbook-pro-near-white-open-book-FHnnjk1Yj7Y
+
+gaming-workspace.jpg — ARTO SURAJ / Unsplash
+https://unsplash.com/photos/black-flat-screen-computer-monitor-turned-on-with-black-computer-keyboard-cIxE9fk7B2c
+
+Photo license: https://unsplash.com/license
+Downloaded as free Unsplash photos on 2026-10-09. Commercial use and modification
+are allowed under the Unsplash license. Credit is retained here for traceability.
+
+Bootstrap 5.3.8 compiled CSS — MIT
+https://getbootstrap.com/docs/5.3/getting-started/download/
+License: assets/vendor/BOOTSTRAP-LICENSE.txt
+Vendored CSS matches the official SHA-384 value.
+
+Lucide 1.53.0 SVG icons — ISC
+https://lucide.dev/license
+License: assets/vendor/LUCIDE-LICENSE.txt
+Icons are embedded as SVG directly in the HTML; there is no icon loader or CDN.
