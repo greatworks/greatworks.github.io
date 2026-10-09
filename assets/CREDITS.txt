@@ -31,3 +31,20 @@ Lucide 1.53.0 SVG icons — ISC
 https://lucide.dev/license
 License: assets/vendor/LUCIDE-LICENSE.txt
 Icons are embedded as SVG directly in the HTML; there is no icon loader or CDN.
+
+Hero background video / 首页视频背景
+------------------------------------
+Futuristic Digital Data Visualization Loop — Chandresh Uike / Pexels
+Source: https://www.pexels.com/video/futuristic-digital-data-visualization-loop-34645078/
+License: https://www.pexels.com/license/ (verified 2026-10-09)
+Free-use stock footage with website and product-marketing use permitted.
+This is a stock-media license, not an open-source software license.
+It does not show the CatEye interface or imply endorsement by its author.
+
+Files: assets/videos/hero-digital-flow-1080p.mp4 (desktop),
+assets/videos/hero-digital-flow-720p.mp4 (mobile),
+assets/videos/hero-digital-flow-poster.jpg (frame at 4 seconds).
+Source is a 3840x2160, 20.02-second clip. Local derivatives are silent,
+20-second H.264/24fps clips with web compression and fast-start metadata.
+Color tint and dark masking are applied by CSS, preserving title legibility.
+Source metadata and transformation details: assets/video-sources.json.

@@ -26,6 +26,8 @@ assets/js/main.js    原生 JavaScript 交互与动效
 assets/js/downloads.js GitHub 最新版本获取、直接下载与复制地址
 assets/vendor/      本地 Bootstrap CSS 与图标授权
 assets/images/      真实软件界面、产品 Logo、三张场景照片
+assets/videos/      首页首屏视频：桌面 1080p、手机 720p、静态封面
+assets/video-sources.json 视频原作者、来源、许可与压缩处理记录
 assets/CREDITS.txt   图片与开源资源来源
 docs/设计与部署说明.html  用户体验、信息架构、视觉与交互说明
 
@@ -34,6 +36,13 @@ docs/设计与部署说明.html  用户体验、信息架构、视觉与交互�
 风格、间距、字体、断点、动效：编辑 assets/css/main.css。
 交互提示文字和逻辑：编辑 assets/js/main.js。
 所有页面使用相对路径，可部署在域名根目录或子目录。
+首页视频来自 Pexels 的公开免费素材库，可用于产品网站；素材适用 Pexels
+License，不是开源软件代码许可。完整来源与使用范围见 assets/CREDITS.txt。
+视频已随网页提供，不需要访问 Pexels 才能播放。桌面加载 1080p（7.5 MiB），
+宽度不超过 800px 时加载 720p（3.8 MiB）。视频为 20 秒、静音循环 H.264。
+首屏右上角和页脚可暂停动效。减少动态效果模式只显示封面、不加载视频；
+点击“播放背景”可主动启用。视频解码/加载失败时显示静态封面，滚出首屏
+或切换到其他标签页时暂停播放。下载按钮的最新版本查询逻辑保持独立。
 
 5. 软件版本更新与直接下载
 首页和指南中的下载按钮、页脚下载、顶部下载按钮全部直接请求下载；

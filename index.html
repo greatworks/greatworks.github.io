@@ -76,7 +76,14 @@
       <nav id="mobile-nav" class="mobile-nav" aria-label="移动导航" hidden><a href="index.html">产品概览</a><a href="guide.html">使用指南</a><a href="download.html">下载猫眼</a></nav>
       <div class="scroll-meter" aria-hidden="true"></div>
     </header>
-<main id="main"><section class="hero"><div class="container">
+<main id="main"><section class="hero"><div class="hero-backdrop" aria-hidden="true">
+  <video class="hero-video" data-hero-video autoplay muted loop playsinline preload="none" tabindex="-1" poster="assets/videos/hero-digital-flow-poster.jpg" data-desktop-src="assets/videos/hero-digital-flow-1080p.mp4" data-mobile-src="assets/videos/hero-digital-flow-720p.mp4"></video>
+</div>
+<button type="button" class="hero-motion" data-hero-motion aria-pressed="false">
+  <svg data-video-icon="pause" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 5v14M16 5v14"/></svg>
+  <svg data-video-icon="play" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" hidden><path d="m8 5 11 7-11 7Z"/></svg>
+  <span>暂停背景</span>
+</button><div class="container">
       <div class="hero-copy">
         <span class="eyebrow"><i></i>自由记录，自在创作</span>
         <h1>捕捉灵感。<br><em>留住每个精彩。</em></h1>

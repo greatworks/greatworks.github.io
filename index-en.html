@@ -76,7 +76,14 @@
       <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden><a href="index-en.html">Overview</a><a href="guide-en.html">How it works</a><a href="download-en.html">Download</a></nav>
       <div class="scroll-meter" aria-hidden="true"></div>
     </header>
-<main id="main"><section class="hero"><div class="container">
+<main id="main"><section class="hero"><div class="hero-backdrop" aria-hidden="true">
+  <video class="hero-video" data-hero-video autoplay muted loop playsinline preload="none" tabindex="-1" poster="assets/videos/hero-digital-flow-poster.jpg" data-desktop-src="assets/videos/hero-digital-flow-1080p.mp4" data-mobile-src="assets/videos/hero-digital-flow-720p.mp4"></video>
+</div>
+<button type="button" class="hero-motion" data-hero-motion aria-pressed="false">
+  <svg data-video-icon="pause" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 5v14M16 5v14"/></svg>
+  <svg data-video-icon="play" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" hidden><path d="m8 5 11 7-11 7Z"/></svg>
+  <span>Pause background</span>
+</button><div class="container">
       <div class="hero-copy">
         <span class="eyebrow"><i></i>FREE YOUR SCREEN. FIND YOUR FLOW.</span>
         <h1>Capture the spark.<br><em>Keep the moment.</em></h1>

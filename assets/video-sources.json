@@ -1,0 +1,49 @@
+{
+  "role": "Decorative digital-workspace hero background; not a product demo",
+  "title": "Futuristic Digital Data Visualization Loop",
+  "creator": "Chandresh Uike",
+  "provider": "Pexels",
+  "source_page_url": "https://www.pexels.com/video/futuristic-digital-data-visualization-loop-34645078/",
+  "original_download_url": "https://videos.pexels.com/video-files/34645078/14683767_3840_2160_30fps.mp4",
+  "license_name": "Pexels License",
+  "license_url": "https://www.pexels.com/license/",
+  "license_checked": "2026-10-09",
+  "usage": "Free use and adaptation for the CatEye product website; not redistribution as a stock library or endorsement",
+  "original": {
+    "height": 2160,
+    "sha256": "871a516050a3aa82cb5617daeaa39b3d1dcbec08ff51bd05a1efb2f919b91853",
+    "bytes": 42556448,
+    "fps": "30000/1001",
+    "width": 3840,
+    "duration_seconds": 20.02
+  },
+  "derivatives": [
+    {
+      "height": 1080,
+      "audio": "none",
+      "fps": 24,
+      "bytes": 7878603,
+      "file": "videos/hero-digital-flow-1080p.mp4",
+      "width": 1920,
+      "duration_seconds": 20
+    },
+    {
+      "height": 720,
+      "audio": "none",
+      "fps": 24,
+      "bytes": 4026933,
+      "file": "videos/hero-digital-flow-720p.mp4",
+      "width": 1280,
+      "duration_seconds": 20
+    },
+    {
+      "source_time_seconds": 4,
+      "bytes": 122593,
+      "height": 1080,
+      "width": 1920,
+      "file": "videos/hero-digital-flow-poster.jpg"
+    }
+  ],
+  "treatment": "H.264 compression, fast-start, web-sized exports, extracted poster; CSS lime tint and dark overlays",
+  "scope": "Stock video under a free-use license; not presented as open-source code or a recording made with CatEye"
+}
